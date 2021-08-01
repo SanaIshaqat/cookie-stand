@@ -39,7 +39,7 @@ const seattle = {
 
         for(let i=0;i<this.finalRes.length;i++){
             let liElement=document.createElement('li');
-            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies Per Hour';
+            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies.';
             ulElement.appendChild(liElement);
         }
         
@@ -87,7 +87,7 @@ const tokyo = {
 
         for(let i=0;i<this.finalRes.length;i++){
             let liElement=document.createElement('li');
-            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies Per Hour';
+            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies.';
             ulElement.appendChild(liElement);
         }
         
@@ -133,7 +133,7 @@ const dubai = {
 
         for(let i=0;i<this.finalRes.length;i++){
             let liElement=document.createElement('li');
-            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies Per Hour';
+            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies.';
             ulElement.appendChild(liElement);
         }
         
@@ -180,7 +180,7 @@ const paris = {
 
         for(let i=0;i<this.finalRes.length;i++){
             let liElement=document.createElement('li');
-            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies Per Hour';
+            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies.';
             ulElement.appendChild(liElement);
         }
         
@@ -227,7 +227,7 @@ const lima = {
 
         for(let i=0;i<this.finalRes.length;i++){
             let liElement=document.createElement('li');
-            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies Per Hour';
+            liElement.textContent=wrokingHours[i]+ ': ' +this.finalRes[i]+' Cookies.';
             ulElement.appendChild(liElement);
         }
         
