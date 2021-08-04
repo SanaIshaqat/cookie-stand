@@ -1,6 +1,7 @@
 body{
     width: 960px;
     margin:auto;
+    
 }
 
 .logo{
@@ -13,7 +14,7 @@ nav{
     text-align:  right;
 }
 header{ position: fixed;
-    background-color: rgb(202, 183, 158);
+    background-color: rgb(243, 231, 214);
     width: 960px;
 }
 header {
@@ -28,6 +29,9 @@ h4{
 
 h3{
     color: rgb(82, 88, 148);
+    font-family: Arial, Helvetica, sans-serif;
+
+    
     
 }
 a { 
@@ -76,6 +80,14 @@ color: gray;
 
     color: rgb(226, 100, 41);
   }
+
+
+h1{font-family: Arial, Helvetica, sans-serif;
+
+  color: rgb(66, 92, 131);
+  background-color: rgb(243, 231, 214);
+  
+}
   .lastSec{
       margin-top: 50px;
     display: grid;
@@ -83,6 +95,55 @@ color: gray;
     gap: 10px;
 
   }
+
+  .locations:nth-child (1){
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+
+  }
+
+  .locations:nth-child (2){
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+
+  }
+
+  .locations:nth-child (3){
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+
+  }
+  .locations:nth-child (4){
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+
+  }
+
+  .locations:nth-child (5){
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+
+
+  }
+.locations{
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+
 
   footer{
       padding-top: 50px;
