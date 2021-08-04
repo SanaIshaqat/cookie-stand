@@ -152,5 +152,3 @@ function submitFunc(event){
 
     tableFooter();   
 }
-  // function myFunction() {
-    //     document.getElementById("myTable").deleteTFoot();
