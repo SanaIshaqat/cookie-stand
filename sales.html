@@ -17,7 +17,31 @@
      </nav>
     </header>
     <main id="cookieSales">
+       
+       
+       <form id="salesForm">
+           <fieldset>
+           <br>
+           <label for="locationName">Shop Location:</label>
+           <input type="text" name="" id="locationName" required size="45"
+           pattern="[a-z]{4,8}" title="4 to 8 lowercase letters" > <br>
+           <br>
+           <label for="avgCookiesPerPerson">Average Cookies Per Person:</label>
+           <input type="number" name="" id="avgCookiesPerPerson" required pattern="[0-9]{3}" placeholder="###" aria-label="3-digit number" size="3"><br>
+           <br>
+           <label for="maxNoPerCustomer">Max Number Of Cookies Purchased Per Person:</label>
+           <input type="number" name="" id="maxNoPerCustomer" required pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3" ><br>
+           <br>
+           <label for="minNoPerCustomer">Min Number Of Cookies Purchased Per Person:</label>
+           <input type="number" name="" id="minNoPerCustomer" required pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3" ><br>
+           <br>
+           <input type="submit" value= "Save" ><br>
+           <br>
+           </fieldset>
+       </form>
+       
         <!-- <div >
+        
 
 
         </div> -->
